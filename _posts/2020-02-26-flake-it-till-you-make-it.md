@@ -38,7 +38,7 @@ $$
 Since we have that,
 
 $$
-\begin{align}
+\begin{aligned}
         \left\{
 \begin{array}{lr}
 H_{i-1}U_i^{tT} = 0_N \ \ \ \ \ \ &and \\ 
@@ -46,7 +46,7 @@ H_{i-2}M_{i-1}U_i^{tT} = 0_N  \ \ \ \ \ \ &and \\
 \vdots \ \ \ \ \ \ &and \\
 H_{h}M_{h}\dots M_{i-1}U_i^{tT}  = 0_N&\\
         \end{array} \right.  
-\end{align}
+\end{aligned}
 $$
 
 For the first equation, we have 
