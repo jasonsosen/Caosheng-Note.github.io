@@ -57,7 +57,8 @@ $$
 \end{aligned}
 $$
 
-Since $N^r (H_{i-1})$ can be calculated as 
+Since $$N^r (H_{i-1})$$ can be calculated as 
+
 $$
 H_{i-1} =
 \begin{bmatrix} \bar{f}_{u(i-2)}^T\bar{f}_{x(i-1)}^T &\ \ \  \bar{F}_{u(i-2)}^T+\bar{f}_{u(i-2)}^T\bar{F}_{x(i-1)}^T\\\bar{f}_{u(i-1)}^T& \bar{F}_{u(i-1)}^T
@@ -70,17 +71,23 @@ N^r(H_{i-1}) =
 N^c(\bar{f}_{u(i-1)})\\N^c(\bar{F}_{u(i-1)})\Gamma
 \end{bmatrix}
 $$
+
 Here,
+
 $$
 \begin{aligned}
     \bar{f}_{u(i-2)}^T\bar{f}_{x(i-1)}^TN^c(\bar{f}_{u(i-1)})+(\bar{F}_{u(i-2)}^T+\bar{f}_{u(i-2)}^T\bar{F}_{x(i-1)}^T)N^c(\bar{F}_{u(i-1)})\Gamma=0
 \end{aligned}
 $$
+
 Since
+
 $$
 \bar{F}_{u(i-2)}^TN^c(\bar{F}_{u(i-1)}=0
 $$
+
 We have
+
 $$
 \begin{aligned}
     \bar{f}_{u(i-2)}^T\bar{f}_{x(i-1)}^TN^c(\bar{f}_{u(i-1)})+(+\bar{f}_{u(i-2)}^T\bar{F}_{x(i-1)}^T)N^c(\bar{F}_{u(i-1)})\Gamma=0
