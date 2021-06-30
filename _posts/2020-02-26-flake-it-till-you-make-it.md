@@ -133,7 +133,7 @@ $$
 That is to say
 
 $$
-N^c(\bar{f}_{u(i-1)})-\bar{F}_{x(i)}^TN^c(\bar{F}_{u(i-1)})(\bar{F}_{x(i-1)}^TN^c(\bar{F}_{u(i-1)}))^{-1}(N^c(\bar{f}_{u(i-2)})-\bar{f}_{x(i-1)}^TN^c(\bar{f}_{u(i-1)})) \neq \bar{f}_{x(i)}^{T}N^c(\bar{f}_{u(i)})
+N^c(\bar{f}_{u(i-1)})-\bar{F}_{x(i)}^TN^c(\bar{F}_{u(i-1)})(\bar{F}_{x(i-1)}^TN^c(\bar{F}_{u(i-1)}))^{-1}(N^c(\bar{f}_{u(i-2)})-\bar{f}_{x(i-1)}^TN^c(\bar{f}_{u(i-1)})) \\ \neq \bar{f}_{x(i)}^{T}N^c(\bar{f}_{u(i)})
 $$
 
 Let us denote the matrix 
