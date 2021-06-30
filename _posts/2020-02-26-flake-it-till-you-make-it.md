@@ -22,6 +22,7 @@ A soulful notion of success rests on the actualization of our innate image. Succ
 ## Null space discussion
 
 Definition of $H_k$ and $U_k$ is showing below
+
 $$
 H_k = \begin{bmatrix} \bar{f}_{u(k-1)}^T\bar{f}_{x(k)}^T &\ \ \  \bar{F}_{u(k-1)}^T+\bar{f}_{u(k-1)}^T\bar{F}_{x(k)}^T\\\bar{f}_{u(k)}^T& \bar{F}_{u(k)}^T
 \end{bmatrix}
@@ -35,9 +36,9 @@ $$
 $$
 
 Since we have that,
+
 $$
 \begin{align}
-    % \begin{split}
         \left\{
 \begin{array}{lr}
 H_{i-1}U_i^{tT} = 0_N \ \ \ \ \ \ &and \\ 
