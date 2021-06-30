@@ -93,3 +93,54 @@ $$
     \bar{f}_{u(i-2)}^T\bar{f}_{x(i-1)}^TN^c(\bar{f}_{u(i-1)})+(+\bar{f}_{u(i-2)}^T\bar{F}_{x(i-1)}^T)N^c(\bar{F}_{u(i-1)})\Gamma=0
 \end{aligned}
 $$
+
+$$
+\begin{aligned}
+    \bar{f}_{x(i-1)}^TN^c(\bar{f}_{u(i-1)})+\bar{F}_{x(i-1)}^TN^c(\bar{F}_{u(i-1)})\Gamma=N^c(\bar{f}_{u(i-2)})
+\end{aligned}
+$$
+
+Here, we get
+
+$$
+\Gamma=(\bar{F}_{x(i-1)}^TN^c(\bar{F}_{u(i-1)}))^{-1}(N^c(\bar{f}_{u(i-2)})-\bar{f}_{x(i-1)}^TN^c(\bar{f}_{u(i-1)}))
+$$
+
+
+Then
+
+$$
+\begin{aligned}
+     U_i N^r (H_{i-1})= \begin{bmatrix} 
+    \bar{f}_{u(i-1)}^TN^c(\bar{f}_{u(i-1)})\\
+    \bar{f}_{u(i)}^T\bar{f}_{x(i)}^{-T}N^c(\bar{f}_{u(i-1)})-\bar{f}_{u(i)}^T\bar{f}_{x(i)}^{-T}\bar{F}_{x(i)}^TN^c(\bar{F}_{u(i-1)})\Gamma
+    \end{bmatrix}
+\end{aligned}
+$$
+
+which shows us the necessary to prove
+
+$$
+\bar{f}_{u(i)}^T\bar{f}_{x(i)}^{-T}N^c(\bar{f}_{u(i-1)})-\bar{f}_{u(i)}^T\bar{f}_{x(i)}^{-T}\bar{F}_{x(i)}^TN^c(\bar{F}_{u(i-1)})\Gamma \neq 0
+$$
+
+which also means
+
+$$
+N^c(\bar{f}_{u(i-1)})-\bar{F}_{x(i)}^TN^c(\bar{F}_{u(i-1)})\Gamma \neq \bar{f}_{x(i)}^{T}N^c(\bar{f}_{u(i)}^T)
+$$
+
+That is to say
+
+$$
+N^c(\bar{f}_{u(i-1)})-\bar{F}_{x(i)}^TN^c(\bar{F}_{u(i-1)})(\bar{F}_{x(i-1)}^TN^c(\bar{F}_{u(i-1)}))^{-1}(N^c(\bar{f}_{u(i-2)})-\bar{f}_{x(i-1)}^TN^c(\bar{f}_{u(i-1)})) \neq \bar{f}_{x(i)}^{T}N^c(\bar{f}_{u(i)})
+$$
+
+Let us denote the matrix 
+
+$$
+\begin{aligned}
+\bar{F}_{i:i-1}^x=\bar{F}_{x(i)}^TN^c(\bar{F}_{u(i-1)})(\bar{F}_{x(i-1)}^TN^c(\bar{F}_{u(i-1)}))^{-1}    
+\end{aligned}
+$$
+
