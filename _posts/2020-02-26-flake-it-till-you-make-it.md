@@ -144,3 +144,27 @@ $$
 \end{aligned}
 $$
 
+
+It gives that
+
+$$
+N^c(\bar{f}_{u(i-1)})-\bar{F}_{i:i-1}^x N^c(\bar{f}_{u(i-2)}) \neq \bar{f}_{x(i)}^{T}N^c(\bar{f}_{u(i)})-\bar{F}_{i:i-1}^x\bar{f}_{x(i-1)}^TN^c(\bar{f}_{u(i-1)}))
+$$
+
+which means 
+$$
+\begin{aligned}
+\begin{bmatrix} 
+I & -\bar{F}_{i:i-1}^x
+\end{bmatrix}
+\begin{bmatrix} 
+N^c(\bar{f}_{u(i-1)}) \\N^c(\bar{f}_{u(i-2)})
+\end{bmatrix} \neq
+\begin{bmatrix}
+I & -\bar{F}_{i:i-1}^x
+\end{bmatrix}
+\begin{bmatrix}
+\bar{f}_{x(i)}^{T}N^c(\bar{f}_{u(i)})\\\bar{f}_{x(i-1)}^TN^c(\bar{f}_{u(i-1)}))
+\end{bmatrix}
+\end{aligned}
+$$
